@@ -1,0 +1,9 @@
+{
+  "name": "EVA ClínicApp",
+  "description": "Plataforma SaaS de gestión clínica para asesoras de lactancia, puericultoras y familias. Gestión de historias clínicas estructuradas y seguimiento con IA.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ],
+  "majorCapabilities": []
+}

@@ -1,0 +1,67 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EVA ClínicApp - Acompañamiento en Lactancia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { 
+          font-family: 'Plus Jakarta Sans', sans-serif; 
+          background-color: #FFF7F9; /* Blush White */
+          color: #1F2933;
+        }
+        .clinical-card {
+          background-color: #FFFFFF;
+          border: 1px solid #E8DDE2;
+          box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.02), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
+        }
+        .btn-primary {
+          background-color: #F28C8C; /* Coral como primario */
+          color: #FFFFFF;
+          transition: all 0.2s;
+        }
+        .btn-primary:hover {
+          background-color: #e07b7b;
+        }
+        .btn-secondary {
+          background-color: #4A6FA5; /* Azul como secundario */
+          color: #FFFFFF;
+        }
+        .text-secondary {
+          color: #5F6C7B;
+        }
+        .accent-coral {
+          color: #F28C8C;
+        }
+        .bg-coral-soft {
+          background-color: #FFF0F0;
+        }
+        .bg-secondary-green {
+          background-color: #7FB7A6;
+        }
+        ::-webkit-scrollbar { width: 6px; }
+        ::-webkit-scrollbar-track { background: #FFF7F9; }
+        ::-webkit-scrollbar-thumb { background: #E8DDE2; border-radius: 10px; }
+        ::-webkit-scrollbar-thumb:hover { background: #d1c1c9; }
+    </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="antialiased">
+    <div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
